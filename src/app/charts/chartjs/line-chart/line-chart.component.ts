@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ChartDataSets, ChartOptions } from 'chart.js';
+import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
 import { Color, Label } from 'ng2-charts';
 
 @Component({
@@ -42,7 +42,7 @@ export class LineChartComponent implements OnInit {
   lineChartLegend = true;
 
   // Define type of chart
-  lineChartType = 'line';
+  lineChartType: ChartType = 'line';
 
   lineChartPlugins = [];
 
