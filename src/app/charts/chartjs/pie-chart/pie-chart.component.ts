@@ -22,9 +22,9 @@ export class PieChartComponent implements OnInit {
     },
   };
 
-  pieChartLabels: Label[] = ['Nitrogen', 'Oxygen', 'Argon', 'Carbon dioxide'];
+  pieChartLabels: Label[] = ['Motorcycles', 'Classic Cars', 'Vintage Cars'];
 
-  pieChartData: number[] = [78.09, 20.95, 0.93, 0.03];
+  pieChartData: number[] = [58, 159, 102];
 
   pieChartType: ChartType = 'pie';
 

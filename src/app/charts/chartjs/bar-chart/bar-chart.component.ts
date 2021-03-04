@@ -15,14 +15,15 @@ export class BarChartComponent implements OnInit {
     responsive: true,
     scales: { xAxes: [{}], yAxes: [{}] },
   };
-  barChartLabels: Label[] = ['2013', '2014', '2015', '2016', '2017', '2018'];
+  barChartLabels: Label[] = ['Jan', 'Feb', 'Mar', 'Apr', 'May'];
   barChartType: ChartType = 'bar';
   barChartLegend = true;
   barChartPlugins = [];
 
   barChartData: ChartDataSets[] = [
-    { data: [2500, 5900, 6000, 8100, 8600, 8050, 1200], label: 'Company A' },
-    { data: [2800, 4800, 4000, 7900, 9600, 8870, 1400], label: 'Company B' }
+    { data: [11, 13, 13, 13, 8], label: 'Motorcycles' },
+    { data: [38, 38, 24, 18, 41], label: 'Classic Cars' },
+    { data: [22, 22, 22, 11, 25], label: 'Vintage Cars' },
   ];
 
   ngOnInit(): void {

@@ -11,9 +11,9 @@ export class DoughnutChartComponent implements OnInit {
 
   constructor() { }
 
-  doughnutChartLabels: Label[] = ['PUBG', 'Call of Duty', 'Fortnite'];
+  doughnutChartLabels: Label[] = ['Motorcycles', 'Classic Cars', 'Vintage Cars'];
   doughnutChartData: MultiDataSet = [
-    [53, 30, 17]
+    [58, 159, 102]
   ];
   doughnutChartType: ChartType = 'doughnut';
 
